@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Library of voice-triggered code snippets for matplotlib using Voice-In Plus (coming soon)
+# Library of voice-triggered code snippets for Python 3 using Voice-In Plus (coming soon)
 
 
 ## Update history
