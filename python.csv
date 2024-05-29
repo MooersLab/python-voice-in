@@ -10,15 +10,13 @@ python fetch file on GitHub,"<case:lower>import requests
 <case:lower>    file.write( r.text)"
 python write string object to file,"<case:lower>with open('/Users/blaine/linear_regression.stan', 'w') as f:
     <case:lower>f.write(linear_code)"  
-python export json object to file
-<case:lower>import json
+python export json object to file,"<case:lower>import json
 <case:lower>json_object = json.dumps(linear_data, indent=4)
 # Writing to data in dict called linear_data to linear_regression.json
 <case:lower>with open('/Users/blaine/linear_regression.json', "w") as outfile:
-<case:lower>    outfile.write(json_object)  
-python export jason object to file
-<case:lower>import json
+<case:lower>    outfile.write(json_object)"  
+python export jason object to file,"<case:lower>import json
 <case:lower>json_object = json.dumps(linear_data, indent=4)
 # Writing to data in dict called linear_data to linear_regression.json
 <case:lower>with open('/Users/blaine/linear_regression.json', "w") as outfile:
-<case:lower>    outfile.write(json_object)    
+<case:lower>    outfile.write(json_object)"    
