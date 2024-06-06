@@ -4,12 +4,17 @@
 
 # Library of voice-triggered code snippets for Python 3 using Voice-In Plus (coming soon)
 
+These snippets are for the common elements of Python scripts.
+Their templates are meant to help prompt one's memory of the proper structurw of the various elements in a Python program.
+Only the ones for  Python 3 are supplied.
+These snippets can be used when working with Python code in a text area of a web browser such as in a Jupyter or Colab notebook are in a  Python script file that is being edited inside of Jupyter Lab.
 
 ## Update history
 
 |Version      | Changes                                                                                                                                                                         | Date                 |
 |:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
 | Version 0.0 |   Added badges, funding, and update table.                                                                                                                  | 2024 May 29         |
+| Version 0.0.1 |   Added some prose describing the project.                                                                                                                  | 2024 June 6         |
 
 ## Sources of funding
 
