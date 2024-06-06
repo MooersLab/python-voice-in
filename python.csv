@@ -1,7 +1,3 @@
-python flatten list,"<case:lower>projects = [
-    x
-    for xs in P
-    for x in xs]"
 python fetch file on GitHub,"<case:lower>import requests
 <case:lower>contractions ='https://raw.githubusercontent.com/mooerslab/voice-in-plus-contractions/main/contractions.csv'
 <case:lower>with open('contractions.csv', 'w') as file: 
