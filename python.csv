@@ -1,17 +1,4 @@
-python fetch file on GitHub,"<case:lower>import requests
-<case:lower>contractions ='https://raw.githubusercontent.com/mooerslab/voice-in-plus-contractions/main/contractions.csv'
-<case:lower>with open('contractions.csv', 'w') as file: 
-<case:lower>    r = requests.get(contractions)
-<case:lower>    file.write( r.text)"
-python write string object to file,"<case:lower>with open('/Users/blaine/linear_regression.stan', 'w') as f:
-    <case:lower>f.write(linear_code)"  
-python export json object to file,"<case:lower>import json
-<case:lower>json_object = json.dumps(linear_data, indent=4)
-# Writing to data in dict called linear_data to linear_regression.json
-<case:lower>with open('/Users/blaine/linear_regression.json', "w") as outfile:
-<case:lower>    outfile.write(json_object)"  
-python export jason object to file,"<case:lower>import json
-<case:lower>json_object = json.dumps(linear_data, indent=4)
-# Writing to data in dict called linear_data to linear_regression.json
-<case:lower>with open('/Users/blaine/linear_regression.json', "w") as outfile:
-<case:lower>    outfile.write(json_object)"    
+python fetch file on GitHub,"import requests<newline>contractions ='https://raw.githubusercontent.com/mooerslab/voice-in-plus-contractions/main/contractions.csv'<newline>with open('contractions.csv', 'w') as file:<newline>     r = requests.get(contractions)<newline>     file.write( r.text)"
+python write string object to file,"with open('/Users/blaine/linear_regression.stan', 'w') as f:<newline>     f.write(linear_code)"  
+python export json object to file,"import json<newline>json_object = json.dumps(linear_data, indent=4)<newline> # Writing to data in dict called linear_data to linear_regression.json<newline>with open('/Users/blaine/linear_regression.json', "w") as outfile:<newline>     outfile.write(json_object)"  
+python export jason object to file,"import json<newline>json_object = json.dumps(linear_data, indent=4)<newline># Writing to data in dict called linear_data to linear_regression.json<newline>with open('/Users/blaine/linear_regression.json', "w") as outfile:<newline>    outfile.write(json_object)"    
