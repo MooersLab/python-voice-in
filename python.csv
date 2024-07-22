@@ -2,3 +2,4 @@ python fetch file on GitHub,"import requests<newline>contractions ='https://raw.
 python write string object to file,"with open('/Users/blaine/linear_regression.stan', 'w') as f:<newline>     f.write(linear_code)"
 python export json object to file,"import json<newline>json_object = json.dumps(linear_data, indent=4)<newline># Writing to data in dict called linear_data to linear_regression.json<newline>with open('/Users/blaine/linear_regression.json', 'w') as outfile:<newline>     outfile.write(json_object)"
 python export jason object to file,"import json<newline>json_object = json.dumps(linear_data, indent=4)<newline># Writing to data in dict called linear_data to linear_regression.json<newline>with open('/Users/blaine/linear_regression.json', 'w') as outfile:<newline>     outfile.write(json_object)"
+python export string object to file,"with open('/Users/blaine/linear_regression.stan', 'w') as f:<newline>     f.write(linear_code)"
