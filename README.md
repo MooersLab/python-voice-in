@@ -10,6 +10,15 @@ Their templates are meant to help prompt one's memory of the proper structure of
 Only snippets for  Python 3 are supplied.
 These snippets can be used when working with Python code in a text area of a web browser such as in a Jupyter or Colab notebook or in a  Python script file that is being edited inside of Jupyter Lab.
 
+## Usage
+
+- Open the *python.csv* file in a text editor or in the raw view on GitHub.
+- Select all, copy, and paste into the text area exposed upon clicking on the **bulk add** window in Voice-In Plus.
+- Hit the **edit** button to add the new commands.
+- Activate Voice In Plus in Google Chrome or Microsoft Edge.
+- Speak the voice command with the cursor in a code cell in a Jupyter Notebook or in a Python script file inside of Jupyter Lab.
+
+
 ## Update history
 
 |Version      | Changes                                                                                                                                    | Date                 |
