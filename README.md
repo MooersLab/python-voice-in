@@ -36,7 +36,7 @@ These snippets can be used when working with Python code in a text area of a web
 ## Update history
 
 |Version      | Changes                                                                                                                                    | Date                 |
-|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
+|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|
 | Version 0.0 |   Added badges, funding, and update table.                                                                                                 | 2024 May 29         |
 | Version 0.0.1 |   Added some prose describing the project.                                                                                               | 2024 June 6         |
 | Version 0.0.2 |   Made edits to reamdme file.                                                                                                             | 2024 August 7       |
